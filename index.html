@@ -70,17 +70,31 @@
         <h2 class="heading">Proyectos tecnológicos <span></span><span class="animate scroll" style="--i:1;"></span></h2>
         
         <div class="about-content">
-            <h3>Transfer Learning:  <span class="animate scroll" style="--i:3;"></span></h3>
-            <p> texto
+            <h3>MUSK-XGBoost: Clasificador de Cáncer de Alto Rendimiento basado en Transfer Learning Multimodal  <span class="animate scroll" style="--i:3;"></span></h3>
+            <p> Este proyecto implementa una <strong>arquitectura de Machine Learning de dos fases</strong> (<strong>Transfer Learning</strong>) para la 
+                <strong>clasificación de imágenes de patología (WSI)</strong>, diferenciando entre tejido <strong>Normal y Tumor</strong>. 
+                Utiliza el <strong>modelo fundacional MUSK</strong> (Multimodal transformer with Unified maSKed modeling), preentrenado en millones de datos de patología, 
+                como <strong>extractor de features de alta calidad</strong>, y el <strong>algoritmo XGBoost</strong> como clasificador final de alto rendimiento. 
+                El enfoque no solo prioriza el <strong>rendimiento de Estado del Arte (SOTA)</strong>, sino también la <strong>Explicabilidad (XAI)</strong> de las predicciones, 
+                utilizando herramientas como <strong>LIME</strong> para aumentar la <strong>confianza clínica</strong>.
             </p>
-            <p>
-                aprendido
+            <p> El desarrollo de este clasificador de oncología de precisión consolidó mi experiencia en el uso de <strong>Modelos Fundacionales</strong> y 
+                <strong>Transfer Learning en Medicina</strong>, aplicando la arquitectura de dos fases (MUSK como extractor de features de alta calidad y XGBoost 
+                como clasificador) esencial para el manejo de datos médicos escasos. Además, demostré <strong>Validación Rigurosa</strong> y <strong>MLOps Básico</strong> 
+                al implementar la <strong>Validación Cruzada Estratificada</strong> y utilizar métricas avanzadas (<strong>AUC</strong>, <strong>F1-Score</strong>), 
+                estableciendo <strong>líneas base</strong> (Regresión Logística) y <strong>comparadores SOTA</strong> (LightGBM) para justificar 
+                el rendimiento del modelo propuesto. Crucialmente, mi enfoque priorizó la <strong>Explicabilidad (XAI) Orientada al Cliente Clínico</strong>, 
+                entendiendo que la <strong>Matriz de Confusión</strong> debe traducir el rendimiento técnico (ej., la reducción de 117 a 18 Falsos Negativos) 
+                en valor clínico (<strong>minimización del riesgo de diagnóstico tardío</strong>). Finalmente, la <strong>Optimización de Recursos y Rendimiento</strong> 
+                se abordó mediante un análisis comparativo de la <strong>eficiencia computacional</strong> entre XGBoost y LightGBM, un factor clave para la selección 
+                del modelo más adecuado para su implementación en entornos de producción con limitaciones de latencia.
             </p>
             <div class="btn-box btns">
                 <a href="link" class="btn">Transfer Learning</a>
                 <span class="animate scroll" style="--i:5;"></span>
             </div>
         </div>
+        <hr>
 
         <div class="about-content">
             <h3>TumorView: Visor y Evaluador de Imágenes Patológicas para Deep Learning <span class="animate scroll" style="--i:3;"></span></h3>
@@ -102,7 +116,7 @@
                 <span class="animate scroll" style="--i:5;"></span>
             </div>
         </div>
-
+        <hr>
         <div class="about-content">
             <h3>Pipeline Automatizado de Producción: Modelo MLOps aplicado en cáncer de mama <span class="animate scroll" style="--i:3;"></span></h3>
             <p> <strong>MLOps: Pipeline Automatizado de Producción</strong>. Este proyecto es una demostración integral y práctica de un 
